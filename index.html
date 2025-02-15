@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        }
+        header {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            transition: 0.3s;
+        }
+        .nav-links a:hover {
+            color: #1db954;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+            text-align: center;
+            padding: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            width: 80%;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #ddd;
+            margin: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #1db954;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #0f9d58;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            text-align: center;
+            font-size: 1rem;
+            color: #fff;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Modern Landing Page</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Welcome to Our Landing Page</h1>
+        <p>Discover amazing content and explore beautiful designs with us.</p>
+        <a href="#" class="btn">Get Started</a>
+    </div>
+    <footer>Omkar Gaikwad &copy; 2025 Modern Landing Page. All Rights Reserved.</footer>
+</body>
+</html>
